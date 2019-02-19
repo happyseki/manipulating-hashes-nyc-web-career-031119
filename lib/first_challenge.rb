@@ -20,7 +20,6 @@ contacts.each do|person, data|
      v == "strawberry"
    end
     end
-   end
 end
 
   #remember to return your newly altered contacts hash!
