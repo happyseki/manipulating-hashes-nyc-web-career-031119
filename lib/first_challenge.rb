@@ -18,7 +18,7 @@ contacts.each do|person, data|
   data.each do|attribute, value|
    if attribute == contacts["Freddy Mercury"][:favorite_icecream_flavors]
    attribute.delete_if |v|
-     v == ""
+     v == "strawberry"
    end
     end
    end
